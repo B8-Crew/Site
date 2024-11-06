@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Welcome to Boosteight</title>
+    <meta name="description" content="Creativity meets innovation in the world of apps and games!"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="/css/styles.css" rel="stylesheet"/>
+    <script defer="" src="/vendor/alpinejs.focus.min.js"></script>
+    <script defer="" src="/vendor/alpinejs.min.js"></script>
+    <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+    <script src="/vendor/swiper/swiper-bundle.min.js"></script>
+</head>
+<body class="font-poppins antialiased text-black bg-f0f0f4">
+
+<section class="bg-center bg-fixed bg-no-repeat bg-cover bg-hero-pattern-1 h-screen relative select-none content-center">
+    <div class="absolute inset-x-0 top-0 z-50 py-6 lg:py-6">
+        <div class="container mx-auto max-w-2xl lg:max-w-screen-xl text-2xl text-white">
+            <div class="flex flex-row items-center">
+                <a href="https://boosteight.com/" class="px-4">
+                    <img class="h-12" src="images/logo.png" alt="Boosteight" />
+                </a>
+                <span>Boosteight</span>
+            </div>
+        </div>
+    </div>
+    <div class="text-white text-center pt-32">
+        <h1 class="font-bebas-neue text-6xl lg:text-8xl uppercase">We create EMOTIONS</h1>
+        <h2 class="py-4 mx-auto font-poppins text-2xl lg:text-3xl w-4/6">
+            Welcome to Boosteight, where creativity meets innovation in the world of apps and games!
+        </h2>
+    </div>
+</section>
+
+<section class="pb-12 lg:pb-20 -mt-16 sm:-mt-8 z-20 relative">
+    <div class="container-xl mx-auto max-w-2xl lg:max-w-screen-xl">
+        <div class="relative mx-auto flex flex-row" x-data="{ swiper: null }"
+             x-init="swiper = new Swiper($refs.container, { slidesPerView: 'auto', loop: true, speed: 5000, autoplay: { enabled: true, delay: 0, disableOnInteraction: true }, slidesPerView: 1, spaceBetween: 0,
+             breakpoints: {640: { slidesPerView: 1, spaceBetween: 0 }, 768: { slidesPerView: 2, spaceBetween: 0 }, 1024: { slidesPerView: 4, spaceBetween: 0 }} })">
+            <div class="scroll px-8 lg:px-4 swiper swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden"
+                 x-ref="container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide p-4 hover:cursor-pointer hover:bg-gray-200 rounded-xl" role="group" aria-label="1/6"
+                         data-swiper-slide-index="2"
+                         onclick="window.open('https://play.google.com/store/apps/details?id=com.shepeliok.driving.race.police.simulator.cop','_blank')">
+                        <div class="max-w-96 overflow-hidden">
+                            <img src="/images/game-1.jpg" class="rounded-xl" alt="Police Car Chase: Racing Games"/>
+                            <div class="text-lg font-medium pt-4">Police Car Chase: Racing Games</div>
+                            <div class="py-2">
+                                The game where gamer experience the work of a polise officer and intresting Police
+                                Department.
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.shepeliok.driving.race.police.simulator.cop"
+                               class="py-2 font-semibold text-ea002a hover:underline" target="_blank">
+                                <span>View Game</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide p-4 hover:cursor-pointer hover:bg-gray-200 rounded-xl" role="group" aria-label="2/6"
+                         data-swiper-slide-index="3"
+                         onclick="window.open('https://play.google.com/store/apps/details?id=com.shepeliok.driving.race.crime.simulator.city.gangster.mafia','_blank')">
+                        <div class="max-w-96 overflow-hidden">
+                            <img src="/images/game-2.jpg" class="rounded-xl" alt="Crime City: Gangster Mafia"/>
+                            <div class="text-lg font-medium pt-4">Crime City: Gangster Mafia</div>
+                            <div class="py-2">
+                                Real shooting game where you play as a person who is being chased by raid teams with
+                                firearms!
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.shepeliok.driving.race.crime.simulator.city.gangster.mafia"
+                               class="py-2 font-semibold text-ea002a hover:underline" target="_blank">
+                                <span>View Game</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide p-4 hover:cursor-pointer hover:bg-gray-200 rounded-xl" role="group" aria-label="3/6"
+                         data-swiper-slide-index="4"
+                         onclick="window.open('https://play.google.com/store/apps/details?id=com.anymacar.offroad.racing','_blank')">
+                        <div class="max-w-96 overflow-hidden">
+                            <img src="/images/game-3.jpg" class="rounded-xl" alt="Offroad Jeep Driving Simulator"/>
+                            <div class="text-lg font-medium pt-4">Offroad Jeep Driving Simulator</div>
+                            <div class="py-2">
+                                Experience the thrill of offroad 4x4 adventure, an exciting driving game created for
+                                jeep lovers!
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.anymacar.offroad.racing"
+                               class="py-2 font-semibold text-ea002a hover:underline" target="_blank">
+                                <span>View Game</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide p-4 hover:cursor-pointer hover:bg-gray-200 rounded-xl" role="group" aria-label="4/6"
+                         data-swiper-slide-index="5"
+                         onclick="window.open('https://play.google.com/store/apps/details?id=com.findbyclaps','_blank')">
+                        <div class="max-w-96 overflow-hidden">
+                            <img src="/images/game-4.jpg" class="rounded-xl" alt="Clap to Find My Phone"/>
+                            <div class="text-lg font-medium pt-4">Clap to Find My Phone</div>
+                            <div class="py-2">
+                                Now you can track your device without any hassle at a glance with the mobile device
+                                locator.
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.findbyclaps"
+                               class="py-2 font-semibold text-ea002a hover:underline" target="_blank">
+                                <span>View Game</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide p-4 hover:cursor-pointer hover:bg-gray-200 rounded-xl" role="group" aria-label="5/6"
+                         data-swiper-slide-index="6"
+                         onclick="window.open('https://play.google.com/store/apps/details?id=com.speletgames.taxi.driving.car.simulator','_blank')">
+                        <div class="max-w-96 overflow-hidden">
+                            <img src="/images/game-5.jpg" class="rounded-xl" alt="Taxi Parking Car Simulator"/>
+                            <div class="text-lg font-medium pt-4">Taxi Parking Car Simulator</div>
+                            <div class="py-2">
+                                In this game you can experience the work of Taxi Driving. Test different levels and fast
+                                cars.
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.speletgames.taxi.driving.car.simulator"
+                               class="py-2 font-semibold text-ea002a hover:underline" target="_blank">
+                                <span>View Game</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide p-4 hover:cursor-pointer hover:bg-gray-200 rounded-xl" role="group" aria-label="6/6"
+                         data-swiper-slide-index="1"
+                         onclick="window.open('https://play.google.com/store/apps/details?id=com.speletgames.bus.driving.simulator','_blank')">
+                        <div class="max-w-96 overflow-hidden">
+                            <img src="/images/game-6.jpg" class="rounded-xl" alt="Bus Simulator Coach Game"/>
+                            <div class="text-lg font-medium pt-4">Bus Simulator Coach Game</div>
+                            <div class="py-2">
+                                Become an experienced machine driver, drive fast on the highway and deliver passengers
+                                on time.
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.speletgames.bus.driving.simulator"
+                               class="py-2 font-semibold text-ea002a hover:underline" target="_blank">
+                                <span>View Game</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="w-4 h-4 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-12 lg:py-20 bg-white select-none">
+    <div class="container mx-auto px-4 max-w-2xl lg:max-w-screen-xl">
+        <div class="flex flex-col lg:flex-row">
+            <div class="basis-2/5 px-4 lg:px-2 py-4">
+                <div class="font-bebas-neue text-6xl lg:text-7xl uppercase">Product company based in ukraine</div>
+                <div class="mt-8 grid grid-cols-3 gap-8 sm:mt-12 sm:grid-cols-3 lg:grid-cols-3 items-baseline">
+                    <div class="flex flex-col-reverse">
+                        <div class="text-base leading-7">Downloads of our applications.</div>
+                        <div class="text-4xl font-bebas-neue leading-9 tracking-tight text-ea002a">10M+</div>
+                    </div>
+                    <div class="flex flex-col-reverse">
+                        <div class="text-base leading-7">Daily Users on our projects</div>
+                        <div class="text-4xl font-bebas-neue leading-9 tracking-tight text-ea002a">100K+</div>
+                    </div>
+                    <div class="flex flex-col-reverse">
+                        <div class="text-base leading-7">Projects on Google Play</div>
+                        <div class="text-4xl font-bebas-neue leading-9 tracking-tight text-ea002a">12+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="basis-3/5 px-4 py-4 text-xl">
+                <p>Welcome to Boosteight, where creativity and innovation converge to shape the future of digital
+                    entertainment! As a pioneering force in the realm of apps and games, we are dedicated to crafting
+                    remarkable experiences that captivate audiences worldwide. Dive into our world and discover the
+                    magic that sets us apart.</p>
+                <p class="pt-8">Ready to bring your gaming vision to life? Contact us today to learn more about our
+                    services and how we can help you achieve your goals.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="h-20"></section>
+
+<section class="bg-center bg-fixed bg-no-repeat bg-cover bg-hero-pattern-2 h-screen relative content-center">
+    <div class="container mx-auto px-4 max-w-2xl lg:max-w-screen-xl select-none text-white">
+        <div class="mx-8 grid grid-cols-1 sm:mx-0 sm:grid-cols-2 gap-8">
+            <div class="flex flex-col">&nbsp;</div>
+            <div class="flex flex-col">
+                <p class="font-bebas-neue text-5xl lg:text-7xl uppercase">APP development</p>
+                <p class="py-6 font-poppins text-base lg:text-lg">Welcome to the Apps Department at Boosteight,
+                    where innovation meets functionality to create solutions that make a difference.</p>
+                <p class="font-poppins text-base lg:text-lg">Our team of skilled developers is committed to building
+                    mobile applications that streamline processes, connect communities, and enhance daily life.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-center bg-fixed bg-no-repeat bg-cover bg-hero-pattern-3 h-screen relative content-center">
+    <div class="container mx-auto px-4 max-w-2xl lg:max-w-screen-xl select-none text-white">
+        <div class="mx-8 grid grid-cols-1 sm:mx-0 sm:grid-cols-2 gap-8">
+            <div class="flex flex-col">
+                <p class="font-bebas-neue text-5xl lg:text-7xl uppercase">Game development</p>
+                <p class="py-6 font-poppins text-base lg:text-lg lg:w-4/6">Step into a universe of limitless imagination
+                    with our Games Department. Here, we conceive, develop, and breathe life into gaming experiences that
+                    redefine entertainment.</p>
+                <p class="font-poppins text-base lg:text-lg lg:w-4/6">From heart-pounding adventures to different
+                    simulators, every game we create is a testament to our commitment to excellence.</p>
+            </div>
+            <div class="flex flex-col">&nbsp;</div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-center bg-fixed bg-no-repeat bg-cover bg-hero-pattern-4 h-screen relative content-center">
+    <div class="container mx-auto px-4 max-w-2xl lg:max-w-screen-xl select-none text-white">
+        <div class="font-bebas-neue text-5xl lg:text-7xl uppercase text-center">What Sets us Apart</div>
+        <div class="mx-4 mt-8 grid grid-cols-1 gap-8 sm:mx-0 sm:mt-6 sm:grid-cols-2 lg:mt-36 lg:grid-cols-4">
+            <div class="flex flex-col">
+                <div class="relative text-xl lg:text-4xl pb-4 lg:pb-8">
+                    <div class="-mt-2 -ml-6 lg:-mt-8 lg:-ml-10 absolute bg-contain bg-no-repeat bg-center bg-icon-1 w-10 h-10 lg:w-20 lg:h-20"></div>
+                    Originality
+                </div>
+                <p class="text-md lg:text-xl font-light">We pride ourselves on our ability to conceive and develop
+                    original concepts that resonate with players, offering fresh experiences.</p>
+            </div>
+            <div class="flex flex-col">
+                <div class="relative text-xl lg:text-4xl pb-4 lg:pb-8">
+                    <div class="-mt-2 -ml-6 lg:-mt-8 lg:-ml-10 absolute bg-contain bg-no-repeat bg-center bg-icon-2 w-10 h-10 lg:w-20 lg:h-20"></div>
+                    Ambition
+                </div>
+                <p class="text-md lg:text-xl font-light">We are ambitious in everything we do. We always have a
+                    desire to over-perform and get high standards.</p>
+            </div>
+            <div class="flex flex-col">
+                <div class="relative text-xl lg:text-4xl pb-4 lg:pb-8">
+                    <div class="-mt-2 -ml-6 lg:-mt-8 lg:-ml-10 absolute bg-contain bg-no-repeat bg-center bg-icon-3 w-10 h-10 lg:w-20 lg:h-20"></div>
+                    Team work
+                </div>
+                <p class="text-md lg:text-xl font-light">Our diverse team of passionate individuals works seamlessly
+                    together, leveraging each other's strengths and expertise to bring our projects to life.</p>
+            </div>
+            <div class="flex flex-col">
+                <div class="relative text-xl lg:text-4xl pb-4 lg:pb-8">
+                    <div class="-mt-2 -ml-6 lg:-mt-8 lg:-ml-10 absolute bg-contain bg-no-repeat bg-center bg-icon-4 w-10 h-10 lg:w-20 lg:h-20"></div>
+                    Functionality
+                </div>
+                <p class="text-md lg:text-xl font-light">Our apps are designed to solve real-world problems and
+                    enhance everyday experiences, making life easier and more enjoyable.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="h-20"></section>
+
+<section class="py-12 lg:py-20 bg-white">
+    <div class="container mx-auto px-4 max-w-2xl lg:max-w-screen-xl text-center">
+        <div class="font-bebas-neue text-6xl lg:text-7xl uppercase">Careers</div>
+        <p class="text-xl lg:text-2xl pt-6">Ready to transform your ideas into reality? Contact us today to learn more
+            about our services and how we can help you achieve your digital goals.</p>
+        <div class="pt-12">
+            <a href="https://boosteight.hurma.work/public-vacancies"
+               class="text-white text-xl lg:text-2xl px-14 py-3 bg-ea002a rounded-full hover:bg-red-700 select-none">Send CV</a>
+        </div>
+    </div>
+</section>
+
+<section class="py-8 lg:py-16">
+    <div class="container mx-auto max-w-2xl lg:max-w-screen-xl text-center text-2xl lg:text-3xl text-black">
+        info@boosteight.com
+    </div>
+</section>
+
+</body>
+</html>
